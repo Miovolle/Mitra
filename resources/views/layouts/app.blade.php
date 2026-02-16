@@ -18,14 +18,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
     <!-- AOS Animation Library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('css/home-styles.css') }}">
+    <!-- Custom CSS - PENTING INI! -->
+    <link rel="stylesheet" href="{{ asset('css/home-styles.css') }}?v={{ time() }}">
     
     @stack('styles')
     
@@ -78,12 +81,12 @@
         }
         
         ::-webkit-scrollbar-thumb {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
             border-radius: 6px;
         }
         
         ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
         }
     </style>
 </head>
@@ -126,7 +129,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/profil') }}">
+                        <a class="nav-link" href="#profil">
                             <i class="bi bi-person-circle me-2"></i>
                             Profil
                         </a>
@@ -200,7 +203,10 @@
                     // Close mobile menu if open
                     const navbarCollapse = document.getElementById('navbarNav');
                     if (navbarCollapse.classList.contains('show')) {
-                        bootstrap.Collapse.getInstance(navbarCollapse).hide();
+                        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+                        if (bsCollapse) {
+                            bsCollapse.hide();
+                        }
                     }
                 }
             });
@@ -264,19 +270,16 @@
             contactForm.addEventListener('submit', function(e) {
                 e.preventDefault();
                 
-                // Get form values
                 const name = document.getElementById('name').value;
                 const email = document.getElementById('email').value;
                 const subject = document.getElementById('subject').value;
                 const message = document.getElementById('message').value;
                 
-                // Simple validation
                 if (!name || !email || !subject || !message) {
                     alert('Mohon lengkapi semua field!');
                     return;
                 }
                 
-                // Show success message (in production, this would send to backend)
                 alert('Terima kasih! Pesan Anda telah terkirim. Kami akan segera menghubungi Anda.');
                 contactForm.reset();
             });
@@ -306,9 +309,7 @@
         
         filterBtns.forEach(btn => {
             btn.addEventListener('click', function() {
-                // Remove active class from all buttons
                 filterBtns.forEach(b => b.classList.remove('active'));
-                // Add active class to clicked button
                 this.classList.add('active');
                 
                 const filterValue = this.getAttribute('data-filter');
@@ -341,200 +342,5 @@
     </script>
     
     @stack('scripts')
-    
-    <style>
-        /* Navbar Styles */
-        .navbar {
-            padding: 1rem 0;
-            background: transparent;
-            transition: all 0.3s ease;
-        }
-        
-        .navbar.scrolled {
-            background: rgba(255, 255, 255, 0.98);
-            backdrop-filter: blur(10px);
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-        }
-        
-        .navbar-brand {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            font-weight: 700;
-            color: var(--white);
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-        
-        .navbar.scrolled .navbar-brand {
-            color: var(--dark);
-        }
-        
-        .nav-logo {
-            width: 45px;
-            height: auto;
-        }
-        
-        .nav-brand-text {
-            font-size: 1.25rem;
-            font-weight: 700;
-        }
-        
-        .navbar-nav {
-            gap: 0.5rem;
-        }
-        
-        .nav-link {
-            display: inline-flex;
-            align-items: center;
-            color: rgba(255, 255, 255, 0.95) !important;
-            font-weight: 500;
-            font-size: 1rem;
-            padding: 0.625rem 1rem !important;
-            transition: all 0.3s ease;
-            border-radius: var(--radius-md);
-            position: relative;
-        }
-        
-        .navbar.scrolled .nav-link {
-            color: var(--dark) !important;
-        }
-        
-        .nav-link i {
-            font-size: 1.125rem;
-        }
-        
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            bottom: 8px;
-            left: 50%;
-            transform: translateX(-50%) scaleX(0);
-            width: 60%;
-            height: 2px;
-            background: var(--accent);
-            transition: transform 0.3s ease;
-        }
-        
-        .nav-link:hover,
-        .nav-link.active {
-            color: var(--white) !important;
-            background: rgba(255, 255, 255, 0.15);
-        }
-        
-        .navbar.scrolled .nav-link:hover,
-        .navbar.scrolled .nav-link.active {
-            color: var(--primary) !important;
-            background: rgba(37, 99, 235, 0.08);
-        }
-        
-        .nav-link:hover::after,
-        .nav-link.active::after {
-            transform: translateX(-50%) scaleX(1);
-        }
-        
-        .navbar-toggler {
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            padding: 0.5rem 0.75rem;
-            border-radius: var(--radius-md);
-            transition: all 0.3s ease;
-        }
-        
-        .navbar.scrolled .navbar-toggler {
-            border-color: var(--gray-light);
-        }
-        
-        .navbar-toggler:focus {
-            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
-        }
-        
-        .navbar.scrolled .navbar-toggler:focus {
-            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-        }
-        
-        .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-            width: 1.5rem;
-            height: 1.5rem;
-        }
-        
-        .navbar.scrolled .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(15, 23, 42, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-        }
-        
-        /* Back to Top Button */
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: var(--white);
-            border: none;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
-            transform: translateY(20px);
-            transition: all 0.3s ease;
-            z-index: 999;
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-        }
-        
-        .back-to-top.show {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(0);
-        }
-        
-        .back-to-top:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.5);
-        }
-        
-        /* Responsive */
-        @media (max-width: 991px) {
-            .navbar-collapse {
-                background: rgba(255, 255, 255, 0.98);
-                backdrop-filter: blur(10px);
-                padding: 1.5rem;
-                margin-top: 1rem;
-                border-radius: var(--radius-xl);
-                box-shadow: var(--shadow-xl);
-            }
-            
-            .nav-link {
-                color: var(--dark) !important;
-                padding: 0.75rem 1rem !important;
-                margin-bottom: 0.25rem;
-            }
-            
-            .nav-link:hover,
-            .nav-link.active {
-                background: rgba(37, 99, 235, 0.08);
-                color: var(--primary) !important;
-            }
-            
-            .navbar-brand {
-                color: var(--white);
-            }
-            
-            .navbar.scrolled .navbar-brand {
-                color: var(--dark);
-            }
-            
-            .navbar-nav {
-                gap: 0;
-            }
-        }
-        
-        @media (min-width: 992px) {
-            .container-fluid {
-                max-width: 1400px;
-            }
-        }
-    </style>
 </body>
 </html>

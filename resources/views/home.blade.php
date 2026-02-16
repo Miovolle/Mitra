@@ -89,6 +89,165 @@
     </div>
 </section>
 
+<!-- STATISTICS TABLE SECTION -->
+<section class="stats-table-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5" data-aos="fade-right">
+                <span class="section-subtitle">Pencapaian Kami</span>
+                <h2 class="section-title mb-4">Data & Statistik Mitra Prestasi</h2>
+                <p class="stats-description">
+                    Bergabunglah dengan ribuan peserta yang telah meraih prestasi melalui 
+                    platform kami. Lihat data pencapaian dan pertumbuhan komunitas kami.
+                </p>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+                <div class="stats-table-wrapper">
+                    <table class="stats-table">
+                        <thead>
+                            <tr>
+                                <th>Kategori</th>
+                                <th>Total</th>
+                                <th>Growth</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="table-category">
+                                        <i class="bi bi-people-fill"></i>
+                                        <span>Total Peserta</span>
+                                    </div>
+                                </td>
+                                <td><strong>2,847</strong></td>
+                                <td>
+                                    <span class="growth-badge positive">
+                                        <i class="bi bi-arrow-up"></i> 24%
+                                    </span>
+                                </td>
+                                <td><span class="status-dot active"></span> Aktif</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="table-category">
+                                        <i class="bi bi-trophy-fill"></i>
+                                        <span>Lomba Terselenggara</span>
+                                    </div>
+                                </td>
+                                <td><strong>156</strong></td>
+                                <td>
+                                    <span class="growth-badge positive">
+                                        <i class="bi bi-arrow-up"></i> 18%
+                                    </span>
+                                </td>
+                                <td><span class="status-dot active"></span> Aktif</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="table-category">
+                                        <i class="bi bi-award-fill"></i>
+                                        <span>Total Pemenang</span>
+                                    </div>
+                                </td>
+                                <td><strong>468</strong></td>
+                                <td>
+                                    <span class="growth-badge positive">
+                                        <i class="bi bi-arrow-up"></i> 32%
+                                    </span>
+                                </td>
+                                <td><span class="status-dot active"></span> Aktif</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="table-category">
+                                        <i class="bi bi-cash-stack"></i>
+                                        <span>Total Hadiah (Juta)</span>
+                                    </div>
+                                </td>
+                                <td><strong>Rp 850</strong></td>
+                                <td>
+                                    <span class="growth-badge positive">
+                                        <i class="bi bi-arrow-up"></i> 45%
+                                    </span>
+                                </td>
+                                <td><span class="status-dot active"></span> Aktif</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="table-category">
+                                        <i class="bi bi-building"></i>
+                                        <span>Partner Institusi</span>
+                                    </div>
+                                </td>
+                                <td><strong>34</strong></td>
+                                <td>
+                                    <span class="growth-badge positive">
+                                        <i class="bi bi-arrow-up"></i> 15%
+                                    </span>
+                                </td>
+                                <td><span class="status-dot active"></span> Aktif</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PARTNERS/LIBRARY SECTION -->
+<section class="partners-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">Partner Kami</span>
+            <h2 class="section-title">Dipercaya Oleh Institusi Terkemuka</h2>
+            <p class="section-description">
+                Bekerja sama dengan universitas, sekolah, dan organisasi terbaik di Indonesia
+            </p>
+        </div>
+
+        <div class="partners-grid" data-aos="fade-up" data-aos-delay="200">
+            <div class="partner-card">
+                <div class="partner-logo">
+                    <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <h4>Universitas Indonesia</h4>
+            </div>
+            <div class="partner-card">
+                <div class="partner-logo">
+                    <i class="bi bi-book-fill"></i>
+                </div>
+                <h4>Institut Teknologi Bandung</h4>
+            </div>
+            <div class="partner-card">
+                <div class="partner-logo">
+                    <i class="bi bi-building"></i>
+                </div>
+                <h4>Universitas Gadjah Mada</h4>
+            </div>
+            <div class="partner-card">
+                <div class="partner-logo">
+                    <i class="bi bi-bank"></i>
+                </div>
+                <h4>Institut Teknologi Sepuluh Nopember</h4>
+            </div>
+            <div class="partner-card">
+                <div class="partner-logo">
+                    <i class="bi bi-award-fill"></i>
+                </div>
+                <h4>Universitas Airlangga</h4>
+            </div>
+            <div class="partner-card">
+                <div class="partner-logo">
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>Universitas Brawijaya</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- FEATURES SECTION -->
 <section class="features-section" id="features">
     <div class="container">
@@ -137,6 +296,270 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- COMPETITION LISTING SECTION -->
+<section class="competition-section" id="lomba">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">Lomba Terbaru</span>
+            <h2 class="section-title">Daftar Kompetisi</h2>
+            <p class="section-description">Pilih kompetisi yang sesuai dengan minat dan bakatmu.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="competition-filters" data-aos="fade-up" data-aos-delay="100">
+            <button class="filter-btn active" data-filter="all">
+                <i class="bi bi-grid-3x3-gap-fill me-2"></i>
+                Semua
+            </button>
+            <button class="filter-btn" data-filter="open">
+                <i class="bi bi-unlock-fill me-2"></i>
+                Terbuka
+            </button>
+            <button class="filter-btn" data-filter="closed">
+                <i class="bi bi-lock-fill me-2"></i>
+                Ditutup
+            </button>
+            <button class="filter-btn" data-filter="coming">
+                <i class="bi bi-clock-fill me-2"></i>
+                Segera
+            </button>
+        </div>
+
+        <!-- Competition Grid -->
+        <div class="row g-4 mt-4" id="competitionGrid">
+            <!-- Competition Card 1 -->
+            <div class="col-lg-4 col-md-6 competition-item" data-status="closed" data-aos="fade-up" data-aos-delay="100">
+                <div class="competition-card">
+                    <div class="competition-header">
+                        <div class="competition-pattern"></div>
+                        <h3 class="competition-brand">DHARAKA YUDHA<br>COMPETITION</h3>
+                    </div>
+                    <div class="competition-body">
+                        <h4 class="competition-title">DHARAKA YUDHA COMPETITION 2026 - PORTAL DATA TERINTEGRASI PROBOLINGGO</h4>
+                        <p class="competition-category">
+                            <i class="bi bi-tag-fill me-2"></i>
+                            PENYISIHAN DYC WIL. Probolinggo
+                        </p>
+                        <div class="competition-meta">
+                            <div class="meta-item">
+                                <i class="bi bi-calendar-event"></i>
+                                <span>15 Jan - 30 Jan 2026</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>Probolinggo</span>
+                            </div>
+                        </div>
+                        <div class="competition-footer">
+                            <div class="status-badge status-closed">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                TERBUKA
+                            </div>
+                            <a href="#" class="btn-detail">
+                                Detail
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competition Card 2 -->
+            <div class="col-lg-4 col-md-6 competition-item" data-status="closed" data-aos="fade-up" data-aos-delay="200">
+                <div class="competition-card">
+                    <div class="competition-header">
+                        <div class="competition-pattern"></div>
+                        <h3 class="competition-brand">DHARAKA YUDHA<br>COMPETITION</h3>
+                    </div>
+                    <div class="competition-body">
+                        <h4 class="competition-title">DHARAKA YUDHA COMPETITION 2026 - PORTAL DATA TERINTEGRASI SITUBONDO</h4>
+                        <p class="competition-category">
+                            <i class="bi bi-tag-fill me-2"></i>
+                            PENYISIHAN DYC WIL. Situbondo
+                        </p>
+                        <div class="competition-meta">
+                            <div class="meta-item">
+                                <i class="bi bi-calendar-event"></i>
+                                <span>15 Jan - 30 Jan 2026</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>Situbondo</span>
+                            </div>
+                        </div>
+                        <div class="competition-footer">
+                            <div class="status-badge status-closed">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                TERBUKA
+                            </div>
+                            <a href="#" class="btn-detail">
+                                Detail
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competition Card 3 -->
+            <div class="col-lg-4 col-md-6 competition-item" data-status="closed" data-aos="fade-up" data-aos-delay="300">
+                <div class="competition-card">
+                    <div class="competition-header">
+                        <div class="competition-pattern"></div>
+                        <h3 class="competition-brand">DHARAKA YUDHA<br>COMPETITION</h3>
+                    </div>
+                    <div class="competition-body">
+                        <h4 class="competition-title">DHARAKA YUDHA COMPETITION 2026 - PORTAL DATA TERINTEGRASI GENTENG</h4>
+                        <p class="competition-category">
+                            <i class="bi bi-tag-fill me-2"></i>
+                            PENYISIHAN DYC WIL. Genteng
+                        </p>
+                        <div class="competition-meta">
+                            <div class="meta-item">
+                                <i class="bi bi-calendar-event"></i>
+                                <span>15 Jan - 30 Jan 2026</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>Genteng</span>
+                            </div>
+                        </div>
+                        <div class="competition-footer">
+                            <div class="status-badge status-closed">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                TERBUKA
+                            </div>
+                            <a href="#" class="btn-detail">
+                                Detail
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competition Card 4 - Open -->
+            <div class="col-lg-4 col-md-6 competition-item" data-status="open" data-aos="fade-up" data-aos-delay="100">
+                <div class="competition-card">
+                    <div class="competition-header">
+                        <div class="competition-pattern"></div>
+                        <h3 class="competition-brand">NATIONAL<br>CODING CHALLENGE</h3>
+                    </div>
+                    <div class="competition-body">
+                        <h4 class="competition-title">NATIONAL CODING CHALLENGE 2026 - TINGKAT NASIONAL</h4>
+                        <p class="competition-category">
+                            <i class="bi bi-tag-fill me-2"></i>
+                            Kompetisi Programming
+                        </p>
+                        <div class="competition-meta">
+                            <div class="meta-item">
+                                <i class="bi bi-calendar-event"></i>
+                                <span>01 Feb - 15 Mar 2026</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>Online</span>
+                            </div>
+                        </div>
+                        <div class="competition-footer">
+                            <div class="status-badge status-open">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                TERBUKA
+                            </div>
+                            <a href="#" class="btn-detail">
+                                Detail
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competition Card 5 - Coming Soon -->
+            <div class="col-lg-4 col-md-6 competition-item" data-status="coming" data-aos="fade-up" data-aos-delay="200">
+                <div class="competition-card">
+                    <div class="competition-header">
+                        <div class="competition-pattern"></div>
+                        <h3 class="competition-brand">SCIENCE<br>OLYMPIAD</h3>
+                    </div>
+                    <div class="competition-body">
+                        <h4 class="competition-title">OLIMPIADE SAINS NASIONAL 2026</h4>
+                        <p class="competition-category">
+                            <i class="bi bi-tag-fill me-2"></i>
+                            Matematika, Fisika, Kimia, Biologi
+                        </p>
+                        <div class="competition-meta">
+                            <div class="meta-item">
+                                <i class="bi bi-calendar-event"></i>
+                                <span>01 Mar - 30 Apr 2026</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                        <div class="competition-footer">
+                            <div class="status-badge status-coming">
+                                <i class="bi bi-clock-fill me-2"></i>
+                                SEGERA
+                            </div>
+                            <a href="#" class="btn-detail">
+                                Detail
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competition Card 6 - Open -->
+            <div class="col-lg-4 col-md-6 competition-item" data-status="open" data-aos="fade-up" data-aos-delay="300">
+                <div class="competition-card">
+                    <div class="competition-header">
+                        <div class="competition-pattern"></div>
+                        <h3 class="competition-brand">CREATIVE<br>DESIGN CONTEST</h3>
+                    </div>
+                    <div class="competition-body">
+                        <h4 class="competition-title">LOMBA DESAIN GRAFIS NASIONAL 2026</h4>
+                        <p class="competition-category">
+                            <i class="bi bi-tag-fill me-2"></i>
+                            UI/UX Design & Graphic Design
+                        </p>
+                        <div class="competition-meta">
+                            <div class="meta-item">
+                                <i class="bi bi-calendar-event"></i>
+                                <span>10 Feb - 20 Mar 2026</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>Online</span>
+                            </div>
+                        </div>
+                        <div class="competition-footer">
+                            <div class="status-badge status-open">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                TERBUKA
+                            </div>
+                            <a href="#" class="btn-detail">
+                                Detail
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Load More Button -->
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="#" class="btn btn-primary btn-lg">
+                <i class="bi bi-plus-circle me-2"></i>
+                Lihat Lebih Banyak
+            </a>
         </div>
     </div>
 </section>
@@ -304,6 +727,207 @@
             </div>
             <div class="cta-illustration">
                 <i class="bi bi-trophy-fill"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TIMELINE SECTION -->
+<section class="timeline-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">Perjalanan Kami</span>
+            <h2 class="section-title">Timeline Mitra Prestasi</h2>
+            <p class="section-description">
+                Melihat kembali perjalanan dan pencapaian kami dari waktu ke waktu
+            </p>
+        </div>
+
+        <div class="timeline-wrapper">
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-marker">
+                    <i class="bi bi-flag-fill"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Januari 2024</div>
+                    <h4 class="timeline-title">Launching Platform</h4>
+                    <p class="timeline-text">
+                        Mitra Prestasi resmi diluncurkan sebagai platform kompetisi edukatif 
+                        pertama yang terintegrasi untuk pelajar dan mahasiswa Indonesia.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-marker">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Maret 2024</div>
+                    <h4 class="timeline-title">1000+ Peserta Pertama</h4>
+                    <p class="timeline-text">
+                        Mencapai milestone 1000 peserta aktif dan menyelenggarakan 
+                        10 kompetisi dengan total hadiah Rp 100 juta.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-marker">
+                    <i class="bi bi-trophy-fill"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Juli 2024</div>
+                    <h4 class="timeline-title">Kompetisi Nasional Pertama</h4>
+                    <p class="timeline-text">
+                        Sukses menyelenggarakan kompetisi nasional pertama dengan 
+                        peserta dari 50+ kota di Indonesia.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-marker">
+                    <i class="bi bi-award-fill"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">November 2024</div>
+                    <h4 class="timeline-title">Partnership dengan Universitas</h4>
+                    <p class="timeline-text">
+                        Menjalin kerjasama strategis dengan 20+ universitas terkemuka 
+                        untuk menghadirkan kompetisi berkualitas tinggi.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-marker">
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Februari 2026</div>
+                    <h4 class="timeline-title">2500+ Peserta & 150+ Lomba</h4>
+                    <p class="timeline-text">
+                        Terus berkembang dengan komunitas yang semakin besar dan 
+                        ragam kompetisi yang semakin beragam di berbagai bidang.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="faq-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5" data-aos="fade-right">
+                <span class="section-subtitle">Punya Pertanyaan?</span>
+                <h2 class="section-title mb-4">Frequently Asked Questions</h2>
+                <p class="faq-description">
+                    Temukan jawaban untuk pertanyaan yang sering diajukan tentang 
+                    Mitra Prestasi dan layanan kami.
+                </p>
+                <div class="faq-contact-box">
+                    <i class="bi bi-chat-dots-fill"></i>
+                    <div>
+                        <h4>Masih ada pertanyaan?</h4>
+                        <p>Hubungi tim support kami</p>
+                        <a href="#kontak" class="btn btn-primary btn-sm">
+                            Hubungi Kami
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7" data-aos="fade-left">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                <i class="bi bi-question-circle-fill me-3"></i>
+                                Apa itu Mitra Prestasi?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Mitra Prestasi adalah platform kompetisi edukatif yang menyediakan 
+                                informasi lengkap tentang berbagai lomba untuk pelajar dan mahasiswa. 
+                                Kami membantu kamu menemukan kompetisi yang sesuai dengan minat dan 
+                                bakat, serta memberikan panduan untuk meraih prestasi terbaik.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                <i class="bi bi-question-circle-fill me-3"></i>
+                                Bagaimana cara mendaftar lomba?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Kamu bisa browse kompetisi yang tersedia di halaman Lomba, pilih 
+                                kompetisi yang menarik, lalu klik tombol "Detail" untuk melihat 
+                                informasi lengkap dan link pendaftaran. Setiap kompetisi memiliki 
+                                persyaratan dan mekanisme pendaftaran yang berbeda.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                <i class="bi bi-question-circle-fill me-3"></i>
+                                Apakah ada biaya untuk bergabung?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Bergabung dengan platform Mitra Prestasi sepenuhnya GRATIS! Kamu 
+                                dapat mengakses semua informasi lomba tanpa dipungut biaya. Namun, 
+                                beberapa kompetisi mungkin memiliki biaya pendaftaran yang ditentukan 
+                                oleh penyelenggara lomba.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                <i class="bi bi-question-circle-fill me-3"></i>
+                                Siapa saja yang bisa ikut kompetisi?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Kompetisi kami terbuka untuk pelajar SMP, SMA, dan mahasiswa dari 
+                                seluruh Indonesia. Setiap kompetisi memiliki kriteria peserta yang 
+                                berbeda-beda, jadi pastikan kamu membaca persyaratan dengan teliti 
+                                sebelum mendaftar.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                <i class="bi bi-question-circle-fill me-3"></i>
+                                Bagaimana cara menjadi partner?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Kami selalu terbuka untuk kerjasama dengan institusi pendidikan, 
+                                perusahaan, atau organisasi yang ingin menyelenggarakan kompetisi. 
+                                Silakan hubungi tim kami melalui form kontak atau email di 
+                                partnership@mitraprestasi.com untuk diskusi lebih lanjut.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
