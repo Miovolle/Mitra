@@ -64,7 +64,7 @@
             <div class="col-lg-6 text-center hero-mascot" data-aos="fade-left">
                 <div class="mascot-container">
                     <div class="mascot-glow"></div>
-                    <img src="{{ asset('img/mascot.png') }}" alt="Mitra Prestasi Mascot" class="hero-image">
+                    <img src="{{ asset('image\WhatsApp_Image_2026-02-16_at_14.55.36-removebg-preview.png') }}" alt="Mitra Prestasi Mascot" class="hero-image">
                     <div class="floating-elements">
                         <div class="float-item trophy">
                             <i class="bi bi-trophy-fill"></i>
@@ -248,6 +248,191 @@
     </div>
 </section>
 
+<!-- GALLERY DOCUMENTATION SECTION -->
+<section class="gallery-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">Dokumentasi</span>
+            <h2 class="section-title">Galeri Kegiatan Kami</h2>
+            <p class="section-description">
+                Momen-momen berharga dari berbagai kompetisi dan kegiatan yang telah kami selenggarakan
+            </p>
+        </div>
+
+        <!-- Gallery Carousel -->
+        <div class="gallery-carousel-wrapper" data-aos="fade-up" data-aos-delay="200">
+            <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('image\WhatsApp Image 2026-02-14 at 13.41.11 (1).jpeg') }}" alt="Kompetisi 1">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>National Coding Challenge</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>Januari 2026</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('image\WhatsApp Image 2026-02-14 at 13.41.11 (2).jpeg') }}" alt="Pemenang">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>Workshop UI/UX Design</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>Desember 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('image\WhatsApp Image 2026-02-14 at 13.41.11.jpeg') }}" alt="Pemenang 1">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>Penyerahan Hadiah Juara</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>November 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('img/gallery/competition2.jpg') }}" alt="Kompetisi 2">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>Science Olympiad 2025</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>Oktober 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('img/gallery/seminar1.jpg') }}" alt="Seminar 1">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>Seminar Kewirausahaan</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>September 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('img/gallery/team1.jpg') }}" alt="Team 1">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>Tim Panitia Kompetisi</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>Agustus 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('img/gallery/event1.jpg') }}" alt="Event 1">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>Opening Ceremony</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>Juli 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('img/gallery/training1.jpg') }}" alt="Training 1">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>Bootcamp Programming</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>Juni 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery-card">
+                                    <div class="gallery-image">
+                                        <img src="{{ asset('image\WhatsApp Image 2026-02-16 at 14.55.36 (2).jpeg') }}" alt="Partnership 1">
+                                        <div class="gallery-overlay">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-info">
+                                        <h4>MOU dengan Universitas</h4>
+                                        <p><i class="bi bi-calendar3 me-2"></i>Mei 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-icon"><i class="bi bi-chevron-left"></i></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                    <span class="carousel-control-icon"><i class="bi bi-chevron-right"></i></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="#" class="btn btn-primary btn-lg">
+                <i class="bi bi-images me-2"></i>
+                Lihat Semua Foto
+            </a>
+        </div>
+    </div>
+</section>
+
 <!-- FEATURES SECTION -->
 <section class="features-section" id="features">
     <div class="container">
@@ -278,7 +463,7 @@
                     </div>
                     <h3 class="feature-title">Komunitas Aktif</h3>
                     <p class="feature-text">
-                        Bergabung dengan ribuan pelajar dan mahasiswa berprestasi 
+                        Bergabung dengan ribuan pelajar berprestasi 
                         yang saling berbagi tips dan pengalaman.
                     </p>
                 </div>
@@ -490,7 +675,7 @@
                         <h4 class="competition-title">OLIMPIADE SAINS NASIONAL 2026</h4>
                         <p class="competition-category">
                             <i class="bi bi-tag-fill me-2"></i>
-                            Matematika, Fisika, Kimia, Biologi
+                            Matematika, Fisika, Bahasa Inggris
                         </p>
                         <div class="competition-meta">
                             <div class="meta-item">
@@ -613,6 +798,366 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- BLOG/ARTIKEL SECTION -->
+<section class="blog-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">Tips & Artikel</span>
+            <h2 class="section-title">Blog Mitra Prestasi</h2>
+            <p class="section-description">
+                Tips, trik, dan panduan untuk membantu kamu sukses dalam kompetisi
+            </p>
+        </div>
+
+        <div class="row g-4 mt-5">
+            <!-- Blog Card 1 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="{{ asset('img/blog/tips-lomba.jpg') }}" alt="Tips Lomba">
+                        <div class="blog-category">Tips & Trik</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="bi bi-calendar3 me-1"></i> 15 Feb 2026</span>
+                            <span><i class="bi bi-eye me-1"></i> 1.2k views</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="#">7 Tips Jitu Memenangkan Kompetisi untuk Pemula</a>
+                        </h3>
+                        <p class="blog-excerpt">
+                            Ingin ikut lomba tapi bingung mulai dari mana? Simak 7 tips jitu 
+                            yang akan membantumu meraih kemenangan...
+                        </p>
+                        <a href="#" class="blog-read-more">
+                            Baca Selengkapnya
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <article class="blog-card featured-post">
+                    <div class="blog-image">
+                        <img src="{{ asset('img/blog/persiapan.jpg') }}" alt="Persiapan Kompetisi">
+                        <div class="blog-category">Panduan</div>
+                        <div class="featured-badge">
+                            <i class="bi bi-star-fill"></i> Featured
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="bi bi-calendar3 me-1"></i> 12 Feb 2026</span>
+                            <span><i class="bi bi-eye me-1"></i> 2.5k views</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="#">Persiapan Matang: Kunci Sukses di Kompetisi Nasional</a>
+                        </h3>
+                        <p class="blog-excerpt">
+                            Persiapan yang matang adalah kunci kesuksesan. Pelajari langkah-langkah 
+                            strategis untuk menghadapi kompetisi...
+                        </p>
+                        <a href="#" class="blog-read-more">
+                            Baca Selengkapnya
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="{{ asset('img/blog/success-story.jpg') }}" alt="Success Story">
+                        <div class="blog-category">Success Story</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="bi bi-calendar3 me-1"></i> 10 Feb 2026</span>
+                            <span><i class="bi bi-eye me-1"></i> 890 views</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="#">Dari Nol hingga Juara: Kisah Inspiratif Andi</a>
+                        </h3>
+                        <p class="blog-excerpt">
+                            Andi berhasil meraih juara 1 di kompetisi coding nasional. 
+                            Simak perjalanan inspiratifnya...
+                        </p>
+                        <a href="#" class="blog-read-more">
+                            Baca Selengkapnya
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="#" class="btn btn-primary btn-lg">
+                <i class="bi bi-journal-text me-2"></i>
+                Lihat Semua Artikel
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- TRAINING/WORKSHOP SECTION -->
+<section class="training-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <span class="section-subtitle">Pelatihan</span>
+            <h2 class="section-title">Workshop & Pelatihan</h2>
+            <p class="section-description">
+                Tingkatkan skill dengan mengikuti workshop dan pelatihan yang kami sediakan
+            </p>
+        </div>
+
+        <div class="row g-4 mt-5">
+            <!-- Training Card 1 -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="training-card">
+                    <div class="training-header">
+                        <div class="training-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <div class="training-badge upcoming">Segera Dibuka</div>
+                    </div>
+                    <div class="training-content">
+                        <h3 class="training-title">Bootcamp Web Development</h3>
+                        <p class="training-description">
+                            Pelajari fundamental web development dari nol hingga mahir. 
+                            Cocok untuk pemula yang ingin terjun ke dunia programming.
+                        </p>
+                        <div class="training-details">
+                            <div class="detail-item">
+                                <i class="bi bi-calendar-check"></i>
+                                <div>
+                                    <span class="detail-label">Tanggal</span>
+                                    <span class="detail-value">1 - 15 Maret 2026</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-clock"></i>
+                                <div>
+                                    <span class="detail-label">Durasi</span>
+                                    <span class="detail-value">30 Jam (10 Sesi)</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-people"></i>
+                                <div>
+                                    <span class="detail-label">Kuota</span>
+                                    <span class="detail-value">50 Peserta</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-cash-coin"></i>
+                                <div>
+                                    <span class="detail-label">Harga</span>
+                                    <span class="detail-value">Rp 500.000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="training-features">
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Sertifikat</span>
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Mentoring</span>
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Project</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">
+                            <i class="bi bi-box-arrow-in-right me-2"></i>
+                            Daftar Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Training Card 2 -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="training-card">
+                    <div class="training-header">
+                        <div class="training-icon purple">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <div class="training-badge open">Pendaftaran Dibuka</div>
+                    </div>
+                    <div class="training-content">
+                        <h3 class="training-title">Workshop UI/UX Design</h3>
+                        <p class="training-description">
+                            Kuasai prinsip design thinking dan tools profesional untuk 
+                            menciptakan user experience yang luar biasa.
+                        </p>
+                        <div class="training-details">
+                            <div class="detail-item">
+                                <i class="bi bi-calendar-check"></i>
+                                <div>
+                                    <span class="detail-label">Tanggal</span>
+                                    <span class="detail-value">20 - 27 Februari 2026</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-clock"></i>
+                                <div>
+                                    <span class="detail-label">Durasi</span>
+                                    <span class="detail-value">20 Jam (8 Sesi)</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-people"></i>
+                                <div>
+                                    <span class="detail-label">Kuota</span>
+                                    <span class="detail-value">30 Peserta</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-cash-coin"></i>
+                                <div>
+                                    <span class="detail-label">Harga</span>
+                                    <span class="detail-value">Rp 450.000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="training-features">
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Sertifikat</span>
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Portfolio</span>
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Tools</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">
+                            <i class="bi bi-box-arrow-in-right me-2"></i>
+                            Daftar Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Training Card 3 -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="training-card">
+                    <div class="training-header">
+                        <div class="training-icon green">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <div class="training-badge open">Pendaftaran Dibuka</div>
+                    </div>
+                    <div class="training-content">
+                        <h3 class="training-title">Digital Marketing Strategy</h3>
+                        <p class="training-description">
+                            Pelajari strategi marketing digital terkini dari SEO, Social Media, 
+                            hingga Google Ads untuk bisnis modern.
+                        </p>
+                        <div class="training-details">
+                            <div class="detail-item">
+                                <i class="bi bi-calendar-check"></i>
+                                <div>
+                                    <span class="detail-label">Tanggal</span>
+                                    <span class="detail-value">5 - 12 Maret 2026</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-clock"></i>
+                                <div>
+                                    <span class="detail-label">Durasi</span>
+                                    <span class="detail-value">16 Jam (8 Sesi)</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-people"></i>
+                                <div>
+                                    <span class="detail-label">Kuota</span>
+                                    <span class="detail-value">40 Peserta</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-cash-coin"></i>
+                                <div>
+                                    <span class="detail-label">Harga</span>
+                                    <span class="detail-value">Rp 400.000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="training-features">
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Sertifikat</span>
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Case Study</span>
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Template</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">
+                            <i class="bi bi-box-arrow-in-right me-2"></i>
+                            Daftar Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Training Card 4 -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="training-card">
+                    <div class="training-header">
+                        <div class="training-icon orange">
+                            <i class="bi bi-megaphone"></i>
+                        </div>
+                        <div class="training-badge upcoming">Segera Dibuka</div>
+                    </div>
+                    <div class="training-content">
+                        <h3 class="training-title">Public Speaking & Presentation</h3>
+                        <p class="training-description">
+                            Tingkatkan kemampuan berbicara di depan umum dan buat presentasi 
+                            yang memukau audiens dengan percaya diri.
+                        </p>
+                        <div class="training-details">
+                            <div class="detail-item">
+                                <i class="bi bi-calendar-check"></i>
+                                <div>
+                                    <span class="detail-label">Tanggal</span>
+                                    <span class="detail-value">10 - 17 Maret 2026</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-clock"></i>
+                                <div>
+                                    <span class="detail-label">Durasi</span>
+                                    <span class="detail-value">12 Jam (6 Sesi)</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-people"></i>
+                                <div>
+                                    <span class="detail-label">Kuota</span>
+                                    <span class="detail-value">25 Peserta</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="bi bi-cash-coin"></i>
+                                <div>
+                                    <span class="detail-label">Harga</span>
+                                    <span class="detail-value">Rp 350.000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="training-features">
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Sertifikat</span>
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Praktek</span>
+                            <span class="feature-tag"><i class="bi bi-check-circle-fill me-1"></i> Feedback</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">
+                            <i class="bi bi-box-arrow-in-right me-2"></i>
+                            Daftar Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="#" class="btn btn-primary btn-lg">
+                <i class="bi bi-calendar-plus me-2"></i>
+                Lihat Jadwal Lengkap
+            </a>
         </div>
     </div>
 </section>
@@ -903,7 +1448,7 @@
                         </h2>
                         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Kompetisi kami terbuka untuk pelajar SMP, SMA, dan mahasiswa dari 
+                                Kompetisi kami terbuka untuk pelajar TK, SD, SMP dari 
                                 seluruh Indonesia. Setiap kompetisi memiliki kriteria peserta yang 
                                 berbeda-beda, jadi pastikan kamu membaca persyaratan dengan teliti 
                                 sebelum mendaftar.
@@ -952,7 +1497,7 @@
                         </div>
                         <div class="contact-detail">
                             <div class="contact-label">Alamat</div>
-                            <div class="contact-value">Jl. Sriwijaya V blok F No.18, Jember</div>
+                            <div class="contact-value">Jl. Kalisetail Genteng Banyuwangi</div>
                         </div>
                     </div>
 
